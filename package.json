@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-clearDB",
+  "version": "0.1.0",
+  "description": "Delete corrupt database file to allow for it to be recreated",
+  "cordova": {
+    "id": "cordova-plugin-clearDB",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longs/cordova-plugin-clearDB.git"
+  },
+  "keywords": [
+    "cordova",
+    "plugin",
+    "hello",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Michael Stoner",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/longs/cordova-plugin-clearDB/issues"
+  },
+  "homepage": "https://github.com/longs/cordova-plugin-clearDB#readme"
+}

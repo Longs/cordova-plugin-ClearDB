@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="cordova-plugin-ClearDB"
+        version="0.0.1">
+
+  <name>ClearDB</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/clearDB.js" target="js/ClearDB.js"/>
+
+  <js-module src="www/clearDB.js" name="ClearDB">
+    <clobbers target="ClearDB" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="ClearDB">
+        <param name="android-package" value="com.longs.plugin.ClearDB"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/ClearDB.java" target-dir="src/com/longs/plugin/"/>
+  </platform>
+
+</plugin>
